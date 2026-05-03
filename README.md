@@ -8,8 +8,11 @@ Tony's blog
 sphinx-autobuild source/ build/html/
 ```
 
-## Open Graph Images (https://www.opengraph.xyz/)
+## Open Graph
 
-Resolution: 1200 x 630
+Test Open Graph here: https://www.opengraph.xyz/
 
-Size: < 600 kb
+### Images
+- Resolution (recommended): 1200 x 630
+
+- Size (required almost): < 600 kb
