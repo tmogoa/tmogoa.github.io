@@ -28,3 +28,5 @@ html_theme = "shibuya"
 html_static_path = ["_static"]
 
 ogp_use_first_image = True
+ogp_site_url = 'https://tmogoa.github.io/'
+ogp_description_length = 50
