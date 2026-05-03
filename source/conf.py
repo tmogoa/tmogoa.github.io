@@ -13,7 +13,9 @@ author = "Tony Mogoa"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    'sphinxext.opengraph',
+]
 
 templates_path = ["_templates"]
 exclude_patterns = []
@@ -24,3 +26,5 @@ exclude_patterns = []
 
 html_theme = "shibuya"
 html_static_path = ["_static"]
+
+ogp_use_first_image = True
