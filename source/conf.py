@@ -29,4 +29,5 @@ html_static_path = ["_static"]
 
 ogp_use_first_image = True
 ogp_site_url = 'https://tmogoa.github.io/'
-ogp_description_length = 50
+ogp_description_length = 200
+ogp_type = "article"

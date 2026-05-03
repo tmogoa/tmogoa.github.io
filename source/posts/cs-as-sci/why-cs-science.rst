@@ -5,4 +5,4 @@ Yes. Computer Science Is a Science.
 ----------------------------------------------------------
 
 .. image:: turing.png
-   :alt: Description of image
+   :alt: Alan Turing, Father of Computer Science.
