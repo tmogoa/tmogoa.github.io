@@ -25,5 +25,5 @@ I am interested in computer science and mathematics.
 .. toctree::
    :maxdepth: 2
    :caption: Posts:
-
-   posts/cs-as-sci/why-cs-science
+   
+   posts/2025/yes-computer-science-is-a-science/index
