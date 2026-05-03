@@ -4,10 +4,6 @@ on:
   push:
     branches: ["main"]
 
-  pull_request:
-    types:
-      ["opened", "reopened", "synchronize"]
-
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -39,7 +35,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'build/html'
+          path: "build/html"
 
   deploy:
     runs-on: ubuntu-latest
