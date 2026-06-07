@@ -30,4 +30,4 @@ I am interested in computer science and mathematics.
    :maxdepth: 2
    :caption: Posts:
    
-   posts/2026/yes-computer-science-is-a-science/index
+   posts/2026/why-computer-science-is-a-science/index
