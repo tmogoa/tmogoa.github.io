@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 tmogoa's blog
-====================
+=============
 
 I am Tony Mogoa Ombaso.
 
@@ -21,9 +21,13 @@ I am interested in computer science and mathematics.
 - Jul 2019 - Jul 2023: BSc Informatics and Computer Science
    Strathmore University, Nairobi, Kenya
 
+**Interests**
+
+- Movies
+- Liberal arts
 
 .. toctree::
    :maxdepth: 2
    :caption: Posts:
    
-   posts/2025/yes-computer-science-is-a-science/index
+   posts/2026/yes-computer-science-is-a-science/index
