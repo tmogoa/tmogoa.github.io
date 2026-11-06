@@ -1,8 +1,3 @@
-.. tmogoa documentation master file, created by
-   sphinx-quickstart on Sun May  3 08:17:36 2026.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 tmogoa's blog
 =============
 
@@ -24,10 +19,11 @@ I am interested in computer science and mathematics.
 **Interests**
 
 - Movies
-- Liberal arts
+- Hiking
 
 .. toctree::
    :maxdepth: 2
    :caption: Posts:
    
    posts/2026/why-computer-science-is-a-science/index
+   posts/2026/nns-might-be-interpretable-after-all/index

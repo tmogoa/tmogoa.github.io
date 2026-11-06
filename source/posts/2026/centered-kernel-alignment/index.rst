@@ -1,2 +1,0 @@
-Centered Kernel Alignment
-=========================
