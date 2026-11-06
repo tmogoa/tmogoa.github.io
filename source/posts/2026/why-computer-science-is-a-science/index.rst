@@ -1,7 +1,7 @@
 Why Computer Science Is a Science.
 ===================================
 
-3 arguments for why computer science is truly a science.
+Two arguments for why computer science is truly a science.
 
 *Date: June 7, 2026*
 
@@ -25,7 +25,7 @@ Positive science studies aspects of nature that can be measured: material substa
 The so-called scientific method is effective for the study of material substances because material substances lend themselves to experimentation.
 A scientist forms a hypothesis, which is a falsifiable claim, designs an experiment to test it, and uses mathematical precision to assess the outcome of the experiment.
 
-To show that CS is a science, I have to argue that CS studies some aspect of nature and that it uses the scientific method.
+To show that CS is a science, I will to argue that CS studies some aspect of nature and that it uses the scientific method.
 
 
 1. Material object argument: CS studies an aspect of nature
@@ -46,7 +46,6 @@ Are there problems we cannot solve using algorithms?
 Algorithms do not execute immaterially. All algorithms are material.
 A core subject of CS is the study of data structures and algorithms.
 This branch of CS is obsessed with formalising knowledge on how to design algorithms that economise space and time.
-Space and time. 
 Space and time are part of nature.
 CS is most clearly seen to interface with nature when it contends with space and time.
 Arguably, one of the hardest unsolved problems in science is that of solving NP-hard problems.

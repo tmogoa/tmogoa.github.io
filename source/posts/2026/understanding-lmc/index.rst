@@ -1,2 +1,0 @@
-Understanding Linear Mode Connectivity
-======================================

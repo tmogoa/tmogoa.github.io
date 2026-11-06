@@ -1,2 +1,0 @@
-Kullback-Leibler (KL) divergence
-================================
