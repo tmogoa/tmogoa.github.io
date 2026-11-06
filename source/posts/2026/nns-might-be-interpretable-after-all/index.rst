@@ -10,8 +10,8 @@ In this blog post, I quickly comment on `Nick Cammarata's Neural Networks Are Al
 Neural Networks Are Already Clean
 ---------------------------------
 In summary, Nick Cammarata claims that NNs are not a collection of neurons whose semantic roles are jumbled, as was previously widely held.
-Rather, the neurons in an NN have defined roles that are easily interpretable.
-Interestingly, it turns out that what made this discovery possible is the investigation of larger NNs. 
+Instead, the neurons in an NN have defined, easily interpretable roles.
+Interestingly, this discovery became possible by investigating larger NNs. 
 
 "The bad news about modern neural networks is that they're enormous. The good news is that the enormity helps: as the map fills in, every explanation is tightly constrained by everything around it, and bigger models learn narrower neurons that are easier to recognize in the first place."
 
