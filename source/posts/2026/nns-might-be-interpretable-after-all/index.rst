@@ -13,39 +13,40 @@ In this blog post, I quickly comment on `Nick Cammarata's Neural Networks Are Al
 Neural Networks Are Already Clean
 ---------------------------------
 In summary, Nick Cammarata claims that NNs are not a collection of neurons whose semantic roles are jumbled, as was previously widely held.
-Instead, the neurons in an NN have defined, easily interpretable roles.
-Interestingly, this discovery became possible by investigating larger NNs. 
+Instead, the neurons in an NN have defined and interpretable roles.
+Interestingly, this discovery became possible by investigating larger NNs:
 
-"The bad news about modern neural networks is that they're enormous. The good news is that the enormity helps: as the map fills in, every explanation is tightly constrained by everything around it, and bigger models learn narrower neurons that are easier to recognize in the first place."
+    "The bad news about modern neural networks is that they're enormous. The good news is that the enormity helps: as the map fills in, every explanation is tightly constrained by everything around it, and bigger models learn narrower neurons that are easier to recognize in the first place."
 
 Smaller NNs "run out of neurons" so that the features that each neuron learns somehow overlap with the neighbouring neurons.
-As such, this phenomenon was mistakenly interpreted as superposition.
-Mechanistic interpretation as a field has gravitated to increasingly complicated procedures to untangle the features from their supposed superposition.
-These untangling procedures are therefore unnecessary and misleading according to Nick.
+As such, this phenomenon was mistakenly interpreted as superposition: almost confused intermingling of learned features.
+Mechanistic interpretation, as a field, since gravitated to increasingly complicated procedures to untangle the features from their supposed superposition.
+Nick suggests that the untangling procedures are therefore unnecessary and misleading according to Nick.
 
 Yet again, this cautions us that what is widely accepted might actually not be true. NNs are not "mysteriously black-box"; they are actually quite interpretable.
 
-"In that sense, almost the entire network is interpretable if we look closely enough, especially if we look at how it grew over training."
+    "In that sense, almost the entire network is interpretable if we look closely enough, especially if we look at how it grew over training."
 
 LLMs Can Natively Read & Write Neural Network Weights
 -----------------------------------------------------
 
-Rikiya Takehi's post is at once the more exciting and frightening one.
+Rikiya Takehi's post is at once exciting and frightening one.
 The bold claim is that LLMs can directly modify the weights of an NN.
 In other words, LLMs can do weight space programming.
-This is revolutionary.
+This is a revolutionary finding!
 
 Whilst human scientists see a meaningless sea of numbers in NNs, LLMs can easily interpret what the weights are doing. As a result, Rikiya et al. find that an LLM can determine what task an NN was trained to solve just by "looking" at the weights. 
 It can repair an NN so that it is able to complete a task it was previously failing at.
-It can even create an NN from scratch.
+It can even create an NN from scratch without gradient guided optimisation.
 
-What is it revolutionary? Up to now, human scientists have relied on expensive dataset curation and NN training procedures.
+Why is it revolutionary? Up to now, human scientists have relied on expensive dataset curation and NN training procedures to produce performant NNs.
 Weight space programming is now an alternative.
-We don't need to carry out mathematical optimisation via gradient descent, an operation that is likely slower and more expensive than weight space programming.
+Provided access to an LLM, one does not need mathematical optimisation via gradient descent.
+Gradient guided optimisation is slower and more expensive than direct weight space programming.
 
 Rikiya et al. identify a few opportunities that may be created:
 
-- Auditing: LLMs can be used to investigate other NNs. No surprise, Nick Cammarata already dabbles in this.
+- Auditing: LLMs can be used to investigate other NNs. Nick Cammarata already dabbles in this.
 
 - Cheaper solutions: expensive optimisation will be unnecessary once there is an LLM.
 
@@ -57,3 +58,4 @@ Rikiya et al. identify a few opportunities that may be created:
 
 - Two NNs excelling at different tasks can be meaningfully combined (model merging).
 
+The evidence that LLMs can perform weight space programming bolsters the claim that NNs are indeed interpretable.
