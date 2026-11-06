@@ -5,6 +5,9 @@ NNs Might Be Interpretable After All
 
 Two recent blog posts (ironically) seem to suggest that neural networks (NNs) are interpretable. The notion that they are black-box, mysterious objects is likely mistaken.
 
+.. image:: nn-mech-interp.png
+   :alt: Mechanistic interpretation of an NN
+
 In this blog post, I quickly comment on `Nick Cammarata's Neural Networks Are Already Clean <https://already-clean.goodfire.com/#cars-and-animals>`__ and `Rikiya Takehi's LLMs can natively read & write neural network weights <https://rikiyat.github.io/blog/weight-space-programming/>`__.
 
 Neural Networks Are Already Clean
